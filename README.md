@@ -36,7 +36,7 @@ Mini CRM empowers businesses to:
 
 ---
 
-## 🧩 Tech Stack (Optional Section – Fill in if you'd like)
+## 🧩 Tech Stack 
 - Frontend: React.js  
 - Backend: Node.js + Express
 - Database: MongoDB 
