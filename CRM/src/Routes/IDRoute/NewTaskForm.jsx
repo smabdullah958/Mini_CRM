@@ -65,7 +65,7 @@ const NewTaskForm = ({ _id,UserID }) => {
 
   return (
     <div className="max-w-4xl mx-auto mt-10 bg-white p-8 rounded-3xl shadow-2xl border border-gray-200">
-      <h2 className="text-3xl font-bold text-center mb-6 text-blue-700">📝 Add a New Task</h2>
+      <h2 className="text-3xl font-bold text-center mb-6 text-blue-700">📝 Add a New Notes or comments</h2>
 
       {CustomError && (
         <div className="mb-4 text-red-600 font-medium text-center">

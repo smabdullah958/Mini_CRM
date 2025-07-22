@@ -18,7 +18,7 @@ const GetTaskRoute = ({ UserID }) => {
   return (
     <div className="p-6 rounded-3xl bg-gray-100 min-h-screen mt-5">
       <h1 className="text-3xl font-bold text-center text-blue-700 mb-6">
-        📝 Your Task List
+        📝 Your Notes List
       </h1>
 
       {getTask.length===0?(
