@@ -47,7 +47,7 @@ dispatch(LeadSearchClientThunck({
           onChange={SubmitSearching}>
           <option value="">🔽 Filter by Lead</option>
           <option value="New">New</option>
-          <option value="Contacted">Contacted</option>
+          <option value="Contact">Contact</option>
           <option value="Proposal">Proposal</option>
           <option value="Won">Won</option>
         </select>
