@@ -99,6 +99,8 @@ const NewTaskForm = ({ _id,UserID }) => {
             name="TaskDate"
             onChange={handleFields}
             value={Form.TaskDate}
+            min={new Date().toLocaleDateString("en-CA")}  //for local time bro minimum date si today it means we   can not set the task on a previous date bro
+
           />
 
           <button

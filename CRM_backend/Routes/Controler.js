@@ -12,6 +12,8 @@ let UpLoadTask=require("./HomeRoute/UploadTask.js")
 let GetTask=require("./HomeRoute/GetTask.js");
 //to delete task
 let DeleteTask=require("./HomeRoute/DeleteTask.js");
+//get task by a date bro
+let GetTaskByDate=require("./HomeRoute/GetTaskByDate.js")
 
 ParentRoute.post("/PostLead",LeadsMiddleware,UploadLead);
 ParentRoute.get("/GetLead",GetLead);
@@ -21,5 +23,6 @@ ParentRoute.put(`/UpdateForm/:_id`,UpdateForm)
 ParentRoute.post(`/UploadTask/:_id`,UpLoadTask)
 ParentRoute.get(`/GetTask/:UserID`,GetTask)
 ParentRoute.delete(`/DeleteTask/:_id`,DeleteTask)
+ParentRoute.get(`/GetTaskByDate/:TaskDate`,GetTaskByDate)
 
 module.exports = ParentRoute;

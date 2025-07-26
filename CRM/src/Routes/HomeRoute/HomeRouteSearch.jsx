@@ -31,7 +31,7 @@ return(
 
             <input type="text" placeholder="Search here"
             onChange={handlechange} 
-            className=" w-[33vw]  p-2  border-1 border-gray-300 rounded-xl focus:outline-none focus:ring-blue-400  transition-all duration-1000 bg-blue-100 hover:bg-blue-300 text-black "
+            className=" w-[40vw]  p-2  border-1 border-gray-300 rounded-xl focus:outline-none focus:ring-blue-400  transition-all duration-1000 bg-blue-100 hover:bg-blue-300 text-black "
             onKeyDown={handledown}
      />      
 

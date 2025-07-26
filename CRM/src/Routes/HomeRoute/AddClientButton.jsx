@@ -17,7 +17,9 @@ function AddClientButton(){
     }
     return(
         <div>
-        <button className="border-2 border-black p-1 rounded-full transition-all duration-1000 bg-blue-100 hover:bg-blue-500 text-black hover:text-white" onClick={()=>setShow(!show)}>add client</button>
+        <button className="size-10 border-2 border-black p-1 rounded-full transition-all duration-1000 bg-blue-100 hover:bg-blue-500 text-black hover:text-white" onClick={()=>setShow(!show)}>
+          <img src="src\add.png" className=" sm:size-7"/>
+        </button>
    
    {/* through this we can light the background */}
       {show && (

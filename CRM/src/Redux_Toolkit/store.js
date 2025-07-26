@@ -6,6 +6,8 @@ import HomeSearchSlice from "./Slices/HomeSearchSlices"
 import UpdateFormSlice from "./Slices/UpdateFormSlice";
 import  UpLoadTaskSlice  from "./Slices/UploadTaskSlice";
 import GetTaskSlice from "./Slices/GetTaskSlice"
+import  GetDataByDateSlice  from "./Slices/GetDataByDateSlice.js";
+
 export let store=configureStore({
     reducer:{
         AddClient:PostSlice,
@@ -14,6 +16,7 @@ export let store=configureStore({
         HomeSearch:HomeSearchSlice,
         FormUpdate:UpdateFormSlice,
         UpLoadTaskSlice,
-        GetTaskSlice:GetTaskSlice
+        GetTaskSlice:GetTaskSlice,
+        GetDataByDateSlice:GetDataByDateSlice
     }
 })

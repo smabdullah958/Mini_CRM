@@ -7,7 +7,7 @@ name:"Slices",
         loading:false,
         error:false,
         success:false,
-        errorMessage:""
+        errorMessage:"",
     },
      reducers:{
 
