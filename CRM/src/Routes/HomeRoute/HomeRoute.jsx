@@ -44,6 +44,8 @@
           </h1>
         </div>
 
+        
+
         <div className="flex flex-col lg:flex-row gap-8">
           {/* Left: Client Cards */}
           <div className="flex-1 grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">

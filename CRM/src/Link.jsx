@@ -1,28 +1,4 @@
-// import { useState } from "react";
-// import { Link } from "react-router-dom"
 
-// function Linked(){
-//     let [show,setshow]=useState(false)
-//     return (
-//         <div>
-//         <div className="hidden sm:flex sm:flex-col sm:gap-10 sm:bg-gray-100 sm:h-[100vh] sm:w-36 sm:items-center sm:justify-center sm:font-bold sm:text-xl ">
-// <Link to="/" className="sm:hover:text-2xl sm:transition-all sm:duration-1000   ">Home</Link>
-// <Link to="/Leads" className="sm:hover:text-2xl sm:transition-all sm:duration-500 ">Leads</Link>
-//     </div>
-//     <button className=" bg-blue-500 text-white p-2 rounded mt-5" onClick={() => setshow(!show)}>show</button>
-
-// {show &&
-//         <div className="z-0 flex flex-col gap-10 bg-gray-100 h-[100vh] w-36 items-center justify-center font-bold text-xl ">
-// <Link to="/" className="hover:text-2xl transition-all duration-1000   ">Home</Link>
-// <Link to="/Leads" className="hover:text-2xl transition-all duration-500 ">Leads</Link>
-//     </div>
-
-// }
-
-//     </div>
-//     )
-// }
-// export default Linked;
 import { useState } from "react";
 import { Link } from "react-router-dom";
 

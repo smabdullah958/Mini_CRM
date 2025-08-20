@@ -9,7 +9,7 @@ let GetDataByRouteButton = () => {
   return (
     <div className="relative">
       <button
-        className="lg:hidden w-12 h-12 border-2 border-black p-1 rounded-full bg-blue-100 hover:bg-blue-500 text-black hover:text-white transition-all duration-300"
+        className="lg:hidden   border-2 border-black px-4 py-1 rounded-full bg-blue-100 hover:bg-blue-500 text-black hover:text-white transition-all duration-300"
         onClick={() => setShowCalendar(!showCalendar)}
       >
         task
