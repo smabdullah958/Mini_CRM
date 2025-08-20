@@ -1,43 +1,37 @@
-# 💼 Mini CRM - Client Relationship Manager
+🧠 Mini CRM – Client Relationship Manager
 
-A lightweight and user-friendly **Client Relationship Manager** (CRM) application to help businesses manage clients, track leads, organize tasks, and store notes — all within a clean, intuitive interface.
+Welcome to Mini CRM, a lightweight and powerful CRM (Client Relationship Manager) web application designed to help businesses manage their client base, track potential leads, and organize their tasks and notes—all within a clean, responsive, and user-friendly interface.
 
----
+🚀 Project Overview
+Mini CRM streamlines your client and lead management process, helping businesses stay organized, improve productivity, and maintain better client relationships.
 
-## 🚀 Overview
+💡 Core Features
+🔹 Clients Management
+View all clients in a dynamic table or list view
 
-Mini CRM empowers businesses to:
+Search, filter for better organization
 
-- 📋 Organize and view clients
-- 🎯 Track and manage leads across stages
-- ⏰ Schedule tasks 
-- 📝 Maintain notes and comments
+Click to view a detailed client profile, including contact details, notes
 
-> Built with simplicity, clarity, and productivity in mind.
+🔹 Leads Tracking
+Visual pipeline to track leads across stages:
 
----
+New
 
-## 💡 Core Features
+Contacted
 
-### 🔹 Clients
-- View all clients in a responsive  list view
-- **Search** clients for easy segmentation
-- View **detailed client profiles** with all associated activity
+Proposal Sent
 
-### 🔹 Leads
-- Track leads across key stages:
-  - `New`, `Contacted`, `Proposal`, `Won`
+Won
 
-### 🔹 Tasks & Notes
-- Add tasks/reminders linked to specific clients or leads
-- View tasks in:
-  - ✅ **List view**
-- Add sticky notes or comments per client/lead for better tracking
 
----
+🔹 Tasks or Notes
+Add reminders or to-do tasks for each client or lead when lead is won
+
+Add sticky notes or comments to document interactions and important info per client or lead
 
 ## 🧩 Tech Stack 
 - Frontend: React.js  
-- Backend: Node.js + Express
+- Backend: Express
 - Database: MongoDB 
 - State Management: Redux Toolkit 
