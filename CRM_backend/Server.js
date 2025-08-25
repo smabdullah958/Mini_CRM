@@ -17,4 +17,6 @@ App.get("/", (req, res) => {
 });
 
 
-App.listen(PortNo)
+// App.listen(PortNo)
+
+module.exports = App;
