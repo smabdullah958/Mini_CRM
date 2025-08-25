@@ -12,7 +12,7 @@ const Controler = require("./Routes/Controler.js");
 App.use("/ParentRoute",Controler);
 // console.log("Server is running on port 7777");
 
-App.get("/", (req, res) => {
+App.get("/test", (req, res) => {
   res.send("✅ Backend is running on Vercel!");
 });
 
