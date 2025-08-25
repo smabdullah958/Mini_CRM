@@ -17,4 +17,4 @@ App.get("/", (req, res) => {
 });
 
 
-App.listen(PortNo)
+App.listen(PORT)
