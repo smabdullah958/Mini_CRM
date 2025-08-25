@@ -1,6 +1,7 @@
 let mongoose=require("mongoose");
-
-mongoose.connect("mongodb://127.0.0.1:27017/MiniCRM");
+require('dotenv').config();
+console.log(process.env.Connetion)
+mongoose.connect(`${process.env.Connetion}/MiniCRM`)
 
 let Sch = new mongoose.Schema({
     Task:{
